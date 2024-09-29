@@ -17,9 +17,8 @@ export type Category = {
 export type Blog = {
   id: string;
   title: string;
-  description: string;
   content: string;
-  thumbnail?: MicroCMSImage;
+  eyecatch?: MicroCMSImage;
   category: Category;
   publishedAt: string;
 };
